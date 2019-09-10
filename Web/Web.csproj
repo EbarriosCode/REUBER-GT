@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -69,6 +70,12 @@
     </Reference>
     <Reference Include="Microsoft.Owin.Security.Facebook, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.1.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=2.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>False</Private>
     </Reference>
     <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
       <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
@@ -452,23 +459,15 @@
     <Content Include="FrontEnd\img\app-2.jpg" />
     <Content Include="FrontEnd\img\app-3.jpg" />
     <Content Include="FrontEnd\img\background.jpg" />
-    <Content Include="FrontEnd\img\beto.jpg" />
-    <Content Include="FrontEnd\img\blog3.png" />
-    <Content Include="FrontEnd\img\client1.png" />
-    <Content Include="FrontEnd\img\client2.jpg" />
-    <Content Include="FrontEnd\img\client3.png" />
+    <Content Include="FrontEnd\img\checha.jpg" />
     <Content Include="FrontEnd\img\compartir.jpg" />
     <Content Include="FrontEnd\img\design1.png" />
     <Content Include="FrontEnd\img\Eduardo.jpg" />
-    <Content Include="FrontEnd\img\ever.jpg" />
+    <Content Include="FrontEnd\img\fredy.jpg" />
     <Content Include="FrontEnd\img\game-1.jpg" />
     <Content Include="FrontEnd\img\game-2.jpg" />
     <Content Include="FrontEnd\img\game-3.jpg" />
     <Content Include="FrontEnd\img\global_focus.jpg" />
-    <Content Include="FrontEnd\img\i1.png" />
-    <Content Include="FrontEnd\img\i2.png" />
-    <Content Include="FrontEnd\img\i3.png" />
-    <Content Include="FrontEnd\img\i4.png" />
     <Content Include="FrontEnd\img\icon-chat.png" />
     <Content Include="FrontEnd\img\icono-amigos.jpg" />
     <Content Include="FrontEnd\img\icono-chat.gif" />
@@ -480,24 +479,17 @@
     <Content Include="FrontEnd\img\icono-planeta.jpg" />
     <Content Include="FrontEnd\img\icono-reloj.png" />
     <Content Include="FrontEnd\img\icono-trafico.png" />
-    <Content Include="FrontEnd\img\img1.png" />
     <Content Include="FrontEnd\img\loading.gif" />
     <Content Include="FrontEnd\img\lock.png" />
-    <Content Include="FrontEnd\img\maitee.jpg" />
     <Content Include="FrontEnd\img\mapa.jpg" />
-    <Content Include="FrontEnd\img\nathan.jpg" />
     <Content Include="FrontEnd\img\no-foto.jpg" />
     <Content Include="FrontEnd\img\post-shadow.png" />
-    <Content Include="FrontEnd\img\Shahjahan-Jewel.jpg" />
-    <Content Include="FrontEnd\img\susana.jpg" />
-    <Content Include="FrontEnd\img\Syed-Rezwanul-Haque.jpg" />
-    <Content Include="FrontEnd\img\thelma.jpg" />
     <Content Include="FrontEnd\img\tick.png" />
     <Content Include="FrontEnd\img\user.png" />
     <Content Include="FrontEnd\img\users.png" />
-    <Content Include="FrontEnd\img\web-design-1.jpg" />
-    <Content Include="FrontEnd\img\web-design-2.jpg" />
-    <Content Include="FrontEnd\img\web-design-3.jpg" />
+    <Content Include="FrontEnd\img\abel.jpeg" />
+    <Content Include="FrontEnd\img\denis.jpeg" />
+    <Content Include="FrontEnd\img\walter.jpeg" />
     <Content Include="FrontEnd\js\app.js" />
     <Content Include="FrontEnd\js\bootstrap.js" />
     <Content Include="FrontEnd\js\bootstrap.min.js" />
@@ -685,7 +677,7 @@
     <Content Include="FrontEnd\estilos\fonts\FontAwesome.otf" />
     <Content Include="FrontEnd\estilos\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="FrontEnd\estilos\fonts\glyphicons-halflings-regular.woff2" />
-    <None Include="Properties\PublishProfiles\yolo-guatemala - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\reubergt - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.12.4.intellisense.js" />
     <Content Include="Scripts\jquery-1.12.4.js" />
     <Content Include="Scripts\jquery-1.12.4.min.js" />

@@ -29,7 +29,8 @@ namespace Web.Migrations
 
             //Agregando Campos Al crear la Tabla TipoVehiculo
             context.TipoVehiculo.AddOrUpdate(t => t.NombreTipoVehiculo,
-                new TipoVehiculo { NombreTipoVehiculo = "Seda 4 Puertas"},
+                new TipoVehiculo { NombreTipoVehiculo = "Motocicleta" },
+                new TipoVehiculo { NombreTipoVehiculo = "Sedan 4 Puertas"},
                 new TipoVehiculo { NombreTipoVehiculo = "Sedan 2 Puertas" },
                 new TipoVehiculo { NombreTipoVehiculo = "Pick-Up Sencillo" },
                 new TipoVehiculo { NombreTipoVehiculo = "Pick-Up Doble Cabina" },
